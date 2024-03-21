@@ -33,7 +33,6 @@ function App() {
   const play = (num) => {
     setUserSelect(num);
     setComputerSelect(randomNumber());
-    judgement(userSelect, computerSelect);
     setUserResult(judgement(userSelect, computerSelect));
     setComputerResult(judgement(computerSelect, userSelect));
   };
